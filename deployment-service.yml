@@ -14,8 +14,8 @@ spec:
         app: tetris
     spec:
       containers:
-      - name: tetris
-        image: arunb999/bookings:flight
+      - name: moviebooking
+        image: arunb999/bookings:movie
         ports:
         - containerPort: 80   # Use port 3000
 
